@@ -63,3 +63,30 @@ let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticate
 
 // display the output
 console.log("Authentication Status:", authenticationStatus);
+
+
+
+// Practice task
+let role = "Employee";
+let dietAccess;
+
+if (role == "Employee") 
+{
+    dietAccess = "authorized";
+}
+else if (role == "Enrolled Membe")
+{
+    dietAccess = "authorized";
+}
+else if (role == "Subscriber")
+{
+    dietAccess = "partial access";
+}
+else 
+{
+    dietAccess = "no access";
+}
+
+console.log("dietary services access: " + dietAccess);
+
+
